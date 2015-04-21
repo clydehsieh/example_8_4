@@ -11,6 +11,8 @@
 
 @interface Rectangle : NSObject
 
+@property (strong, nonatomic) XYPoint *propertOrigin; // property
+
 @property int width,height;
 
 -(XYPoint *) origin;
