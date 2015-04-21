@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
         Rectangle *myRect = [[Rectangle alloc] init];
         XYPoint *myPoint = [[XYPoint alloc] init];
         
-        [myRect setWidth:5 andHeight:8];
+//        [myRect setWidth:5 andHeight:8];
         [myPoint setX:100 andY:200];
         
         myRect.origin = myPoint;// equl to [myRect setOrigin:myPoint];
